@@ -1,0 +1,21 @@
+___________________ sign up page _________________________________________________
+
+- need to test login with google and facebook 
+- need to see whath happen if i send verefication code to an other email 
+- smtp ip adresse 149.72.112.55  
+- can i sign up with company mail : 
+	- i tired host header injection but no luck 
+	- i tried to change during sending code i receive ut but i didnt work 
+	- need to view other writeups abt these suuf 
+- need to sign up with deleted account and see if i can retrieve all data 
+___________________ Setting Account _____________________________________________
+
+- Csrf Token nessecary while changing user name : 
+		- i tried removing token
+		- i tried delete one char 
+		- i tried keeping the same lenghth 
+		- i tried using other account token (not tested yet )
+		- i need to try Unaouth csrf token  ( not tested yet )
+____________________ General ______________________________________________________________
+
+- in search input ther remove < and all char after it 

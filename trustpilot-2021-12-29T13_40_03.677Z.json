@@ -1,0 +1,305 @@
+{
+    "target": {
+        "scope": {
+            "advanced_mode": true,
+            "exclude": [
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^trustpilotinfo\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^trustpilotinfo\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*apidoc\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*apidoc\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*support\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*support\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*press\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*press\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*apps\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*apps\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                }
+            ],
+            "include": [
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*authenticate\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*authenticate\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*locale\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*locale\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*invitations-api\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*invitations-api\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*consumer-auth\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*consumer-auth\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*blog\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*blog\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*jobs\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*jobs\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*api\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*api\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*b2b\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*b2b\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*www\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*www\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*share\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*share\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*emailsignature\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*emailsignature\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*signup\\.business\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*signup\\.business\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*widget\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*widget\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*legal\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*legal\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*business\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*business\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*ipo\\.trustpilot\\.com$",
+                    "port": "^80$",
+                    "protocol": "http"
+                },
+                {
+                    "enabled": true,
+                    "file": "^/.*",
+                    "host": "^.*ipo\\.trustpilot\\.com$",
+                    "port": "^443$",
+                    "protocol": "https"
+                }
+            ]
+        }
+    }
+}
